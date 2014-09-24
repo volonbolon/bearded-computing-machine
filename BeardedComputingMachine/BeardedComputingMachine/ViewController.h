@@ -1,5 +1,5 @@
 //
-//  SecondViewController.h
+//  ViewController.h
 //  BeardedComputingMachine
 //
 //  Created by Ariel Rodriguez on 9/23/14.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SecondViewController : UIViewController
+@interface ViewController : UIViewController
 
 
 @end
