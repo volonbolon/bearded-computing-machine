@@ -7,19 +7,23 @@
 //
 
 #import "MathJaxViewController.h"
+#import <WebKit/WebKit.h>
 
 @interface MathJaxViewController () <UIWebViewDelegate>
-
-@end
-
-@interface MathJaxViewController ()
-@property (weak, nonatomic) IBOutlet UIWebView *webView;
-
+@property (nonatomic, weak) WKWebView *webView;
 @end
 
 @implementation MathJaxViewController
 - (void)viewDidLoad
 {
+    
+    WKWebViewConfiguration *configuration = [WKWebViewConfiguration new];
+    WKWebView *wv = [[WKWebView alloc] initWithFrame:[[self view] bounds]
+                                       configuration:configuration];
+    
+    [[self view] addSubview:wv];
+    
+    [self setWebView:wv];
     
     NSString *path = [[NSBundle mainBundle] pathForResource:@"sample" ofType:@"html" inDirectory:@"MathJax/test"];
     NSURL *url = [NSURL fileURLWithPath:path];
