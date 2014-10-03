@@ -15,6 +15,7 @@
 		B0C2609319D2431900D34EE5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0C2609119D2431900D34EE5 /* LaunchScreen.xib */; };
 		B0C2609F19D2431900D34EE5 /* BeardedComputingMachineTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B0C2609E19D2431900D34EE5 /* BeardedComputingMachineTests.m */; };
 		B0D2A66819DF05490034048C /* MathJaxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D2A66719DF05490034048C /* MathJaxViewController.m */; };
+		B0D2AC6C19DF0CA80034048C /* MathJax in Resources */ = {isa = PBXBuildFile; fileRef = B0D2AC6B19DF0CA80034048C /* MathJax */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		B0C2609E19D2431900D34EE5 /* BeardedComputingMachineTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeardedComputingMachineTests.m; sourceTree = "<group>"; };
 		B0D2A66619DF05490034048C /* MathJaxViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MathJaxViewController.h; sourceTree = "<group>"; };
 		B0D2A66719DF05490034048C /* MathJaxViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MathJaxViewController.m; sourceTree = "<group>"; };
+		B0D2AC6B19DF0CA80034048C /* MathJax */ = {isa = PBXFileReference; lastKnownFileType = folder; path = MathJax; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 		B0C2607619D2431900D34EE5 = {
 			isa = PBXGroup;
 			children = (
+				B0D2AC6B19DF0CA80034048C /* MathJax */,
 				B0C2608119D2431900D34EE5 /* BeardedComputingMachine */,
 				B0C2609B19D2431900D34EE5 /* BeardedComputingMachineTests */,
 				B0C2608019D2431900D34EE5 /* Products */,
@@ -204,6 +207,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0D2AC6C19DF0CA80034048C /* MathJax in Resources */,
 				B0C2608E19D2431900D34EE5 /* Main.storyboard in Resources */,
 				B0C2609319D2431900D34EE5 /* LaunchScreen.xib in Resources */,
 				B0C2609019D2431900D34EE5 /* Images.xcassets in Resources */,
