@@ -6,14 +6,14 @@
 //  Copyright (c) 2014 Ariel Rodriguez. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "MathMLViewController.h"
 
-@interface ViewController ()
+@interface MathMLViewController ()
 @property (weak, nonatomic) IBOutlet UIWebView *webView;
 
 @end
 
-@implementation ViewController
+@implementation MathMLViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

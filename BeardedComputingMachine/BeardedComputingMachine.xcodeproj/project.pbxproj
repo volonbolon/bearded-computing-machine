@@ -9,11 +9,12 @@
 /* Begin PBXBuildFile section */
 		B0C2608519D2431900D34EE5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B0C2608419D2431900D34EE5 /* main.m */; };
 		B0C2608819D2431900D34EE5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B0C2608719D2431900D34EE5 /* AppDelegate.m */; };
-		B0C2608B19D2431900D34EE5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0C2608A19D2431900D34EE5 /* ViewController.m */; };
+		B0C2608B19D2431900D34EE5 /* MathMLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0C2608A19D2431900D34EE5 /* MathMLViewController.m */; };
 		B0C2608E19D2431900D34EE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0C2608C19D2431900D34EE5 /* Main.storyboard */; };
 		B0C2609019D2431900D34EE5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0C2608F19D2431900D34EE5 /* Images.xcassets */; };
 		B0C2609319D2431900D34EE5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0C2609119D2431900D34EE5 /* LaunchScreen.xib */; };
 		B0C2609F19D2431900D34EE5 /* BeardedComputingMachineTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B0C2609E19D2431900D34EE5 /* BeardedComputingMachineTests.m */; };
+		B0D2A66819DF05490034048C /* MathJaxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D2A66719DF05490034048C /* MathJaxViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +33,16 @@
 		B0C2608419D2431900D34EE5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B0C2608619D2431900D34EE5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B0C2608719D2431900D34EE5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B0C2608919D2431900D34EE5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B0C2608A19D2431900D34EE5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B0C2608919D2431900D34EE5 /* MathMLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MathMLViewController.h; sourceTree = "<group>"; };
+		B0C2608A19D2431900D34EE5 /* MathMLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MathMLViewController.m; sourceTree = "<group>"; };
 		B0C2608D19D2431900D34EE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B0C2608F19D2431900D34EE5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B0C2609219D2431900D34EE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		B0C2609819D2431900D34EE5 /* BeardedComputingMachineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeardedComputingMachineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0C2609D19D2431900D34EE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B0C2609E19D2431900D34EE5 /* BeardedComputingMachineTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeardedComputingMachineTests.m; sourceTree = "<group>"; };
+		B0D2A66619DF05490034048C /* MathJaxViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MathJaxViewController.h; sourceTree = "<group>"; };
+		B0D2A66719DF05490034048C /* MathJaxViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MathJaxViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,12 +86,14 @@
 			children = (
 				B0C2608619D2431900D34EE5 /* AppDelegate.h */,
 				B0C2608719D2431900D34EE5 /* AppDelegate.m */,
-				B0C2608919D2431900D34EE5 /* ViewController.h */,
-				B0C2608A19D2431900D34EE5 /* ViewController.m */,
+				B0C2608919D2431900D34EE5 /* MathMLViewController.h */,
+				B0C2608A19D2431900D34EE5 /* MathMLViewController.m */,
 				B0C2608C19D2431900D34EE5 /* Main.storyboard */,
 				B0C2608F19D2431900D34EE5 /* Images.xcassets */,
 				B0C2609119D2431900D34EE5 /* LaunchScreen.xib */,
 				B0C2608219D2431900D34EE5 /* Supporting Files */,
+				B0D2A66619DF05490034048C /* MathJaxViewController.h */,
+				B0D2A66719DF05490034048C /* MathJaxViewController.m */,
 			);
 			path = BeardedComputingMachine;
 			sourceTree = "<group>";
@@ -219,7 +224,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0C2608B19D2431900D34EE5 /* ViewController.m in Sources */,
+				B0D2A66819DF05490034048C /* MathJaxViewController.m in Sources */,
+				B0C2608B19D2431900D34EE5 /* MathMLViewController.m in Sources */,
 				B0C2608819D2431900D34EE5 /* AppDelegate.m in Sources */,
 				B0C2608519D2431900D34EE5 /* main.m in Sources */,
 			);
