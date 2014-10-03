@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>D7CCE468-7DFE-4EF7-999C-E3873A24785B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>BeardedComputingMachine</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>7F571C3979C982F93491E84CDDEAA652AEBFFD03</key>
+		<string>github.com:volonbolon/bearded-computing-machine.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>BeardedComputingMachine/BeardedComputingMachine.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>7F571C3979C982F93491E84CDDEAA652AEBFFD03</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:volonbolon/bearded-computing-machine.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>7F571C3979C982F93491E84CDDEAA652AEBFFD03</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>7F571C3979C982F93491E84CDDEAA652AEBFFD03</string>
+			<key>IDESourceControlWCCName</key>
+			<string>bearded-computing-machine</string>
+		</dict>
+	</array>
+</dict>
+</plist>

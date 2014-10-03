@@ -414,6 +414,7 @@
 				B0C260A419D2431900D34EE5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B0C260A519D2431900D34EE5 /* Build configuration list for PBXNativeTarget "BeardedComputingMachineTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +423,7 @@
 				B0C260A719D2431900D34EE5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
