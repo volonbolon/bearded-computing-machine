@@ -3,6 +3,7 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--MathML-->
@@ -52,9 +53,31 @@
                     <view key="view" contentMode="scaleToFill" id="rpI-9o-j5Y">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="beC-eR-T0b">
+                                <rect key="frame" x="16" y="20" width="568" height="531"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="3o7-02-M1N" firstAttribute="top" secondItem="beC-eR-T0b" secondAttribute="bottom" id="0RX-6o-dLS"/>
+                            <constraint firstItem="beC-eR-T0b" firstAttribute="top" secondItem="LAo-vN-LxN" secondAttribute="bottom" id="HpV-ci-Ve2"/>
+                            <constraint firstAttribute="centerY" secondItem="beC-eR-T0b" secondAttribute="centerY" id="lK0-mN-K8E"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="beC-eR-T0b" secondAttribute="trailing" id="mHZ-MR-Eg5"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="beC-eR-T0b" secondAttribute="trailing" id="pEi-vV-2XR"/>
+                            <constraint firstItem="beC-eR-T0b" firstAttribute="leading" secondItem="rpI-9o-j5Y" secondAttribute="leadingMargin" id="txC-j2-SXf"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="lK0-mN-K8E"/>
+                                <exclude reference="pEi-vV-2XR"/>
+                            </mask>
+                        </variation>
                     </view>
                     <tabBarItem key="tabBarItem" title="MathJax" id="BeG-OH-uaA"/>
+                    <connections>
+                        <outlet property="imageView" destination="beC-eR-T0b" id="VdN-e2-5bh"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gaM-zr-WbG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
